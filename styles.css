@@ -26,6 +26,15 @@ h1, h2, li,p{
     margin-bottom: 10px;
     text-align: center;
 }
+
+video {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 360px;
+    padding-top: 30px;
+
+}
 /*nav {
     position: relative;
     width: auto;
