@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto Adigio</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!--<img src="./assets/image.png" alt="Logo de la página">-->
+        <div class="title">Alto Adigio</div>
+        <ul class="nav-links">
+            <li><button class="nav-button" data-section="inicio">Inicio</button></li>
+            <li><button class="nav-button" data-section="productos">Productos</button></li>
+            <li><button class="nav-button" data-section="portafolio">Portafolio</button></li>
+            <li><button class="nav-button" data-section="garantias">Garantías</button></li>
+            <li><button class="nav-button" data-section="contactanos">Contáctanos</button></li>
+            <!--<a href="">Inicio</a>
+            <a href="">Productos</a>
+            <a href="">Portafolio</a>
+            <a href="">Garantías</a>
+            <a href="">Contáctanos</a>-->
+        </ul>
+    </nav>
+
+    <section id="inicio" class="section active">
+        <h1>Bienvenido a Alto Adigio</h1>
+    </section>
+
+    <section id="productos" class="section">
+        <h2>Productos</h2>
+        <ul>
+            <p><strong>Vino Brunello di Montalcino</strong>50€</p>
+            <p><strong>Vino Amarone della Valpolicella</strong>40€</p>
+            <p><strong>Vino Nebbiolo</strong>50€</p>
+            <p><strong>Servicios de Cata y eventos privados</strong>500€</p>
+        </ul>
+    </section>
+
+    <section id="portafolio" class="section">
+        <h2>Portafolio</h2>
+        <p><strong>Eslogan:</strong> El sabor de la victoria</p>
+        <p><strong>Objetivo:</strong> Ofrecer los mejores vinos italianos de alta calidad para satisfacer el gusto de los consumidores en todo el mundo.</p>
+        <p><strong>Misión:</strong> Producir y comercializar vinos tradicionales italianos que preserven la rica herencia cultural de Italia, utilizando ingredientes de alta calidad y métodos artesanales.</p>
+        <p><strong>Visión:</strong> Ser una marca líder de vinos italianos a nivel global para el año 2030, respetando el medio ambiente y los valores tradicionales de la producción artesanal.</p>
+    </section>
+
+    <section id="garantias" class="section">
+        <h2>Garantías</h2>
+        <p>Garantía de autenticidad en cada producto</p>
+        <p>Política de devolución dentro de los 30 días por defectos de fabricación</p>
+    </section>
+
+    <section id="contactanos" class="section form">
+        <h2>Contáctanos</h2>
+        <input type="text" class="nombres" id="nombres" placeholder="Ingrese su nombre">
+        <input type="text" class="nombres" id="nombres" placeholder="Ingrese su apellido">
+        <input type="text" class="nombres" id="nombres" placeholder="Ingrese el motivo">
+        <p>estoy de acuerdo con <a href="Términos y Condiciones">Términos y Condiciones</a></p>
+        <input type="submit" class="botons" value="enviar">
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>

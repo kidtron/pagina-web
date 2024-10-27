@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Modern+Antiqua&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.navbar {
+    background-color: #000000ff;
+    /*background: linear-gradient(#000000ff, #ffffff);*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+h1, h2, li,p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*nav {
+    position: relative;
+    width: auto;
+    height: 75px;
+    background: #565656ff;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+
+}
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+nav span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background: linear-gradient(45deg, #5e2129, #aa0000ff);
+    border-radius: 8px;
+    transition: 5s;
+}
+nav a:nth-child(1):hover~span
+{
+    left: 0px;
+}
+
+nav a:nth-child(2):hover~span
+{
+    left: 95px;
+}*/
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #ffffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.navbar img {
+    height: 60px;
+    width: auto;
+    transition: all 0.3;
+}
+
+.title {
+    color: #ffffffff;
+    font-weight: 400;
+}
+
+.navbar img:hover {
+    transform: scale(1.2);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+.productos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #565656ff;
+    padding: 10px 10%;
+}
+
+.nav-links .nav-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.nav-links .nav-button:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Modern Antiqua", serif;
+
+}
+
+.section {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.section.active {
+    display: block;
+}
+
+.form {
+    width: 400px;
+    background: #565656ff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.nombres {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.form a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.form a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.form .botons {
+    width: 100%;
+    background: #000000ff;
+    border: none;
+    padding: 12px;
+    color: #ffffff;
+    margin: 16px 0;
+    font-size: 22px;
+}
