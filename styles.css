@@ -165,7 +165,7 @@ nav a:nth-child(2):hover~span
     background: #565656ff;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     color: #ffffff;
     border-radius: 4px;
 }
@@ -194,4 +194,28 @@ nav a:nth-child(2):hover~span
     color: #ffffff;
     margin: 16px 0;
     font-size: 22px;
+}
+
+.imagen {
+    height: 300px;
+    width: auto;
+}
+
+.caja1 {
+    align-items: center;
+    display: flex;
+    padding-right: 40px;
+}
+
+.caja2 {
+    align-items: center;
+    display: flex;
+    padding-left: 40px;
+    flex-direction: row-reverse;
+}
+
+.caja3 {
+    align-items: center;
+    display: flex;
+    padding-right: 40px;
 }
