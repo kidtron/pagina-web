@@ -113,6 +113,7 @@ video {
     display: none;
     padding: 20px;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .section.active {
@@ -180,9 +181,14 @@ video {
 }
 
 img {
-    height: 350px;
-    width: auto;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+}
+
+.section.active img, video {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
 }
 
 .footer {
